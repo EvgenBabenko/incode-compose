@@ -1,0 +1,29 @@
+version: '3.5'
+
+services:
+
+  client:
+        container_name: incode
+        build:
+          context: ./incode
+          dockerfile: Dockerfile
+        volumes:
+          - '/usr/src/app/'
+          - '/usr/src/app/node_modules/'
+        ports:
+          - '3000:3000'
+        environment:
+          - NODE_ENV=development
+
+  server:
+      container_name: incode-api
+      build:
+        context: ./incode-api
+        dockerfile: Dockerfile
+      volumes:
+        - '/usr/src/app/'
+        - '/usr/src/app/node_modules/'
+      ports:
+        - '8080:8080'
+      environment:
+        - NODE_ENV=development
