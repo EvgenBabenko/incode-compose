@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+
 package-lock.json
 
 # testing
@@ -9,8 +10,6 @@ package-lock.json
 
 # production
 /build
-
-/_buffer
 
 # misc
 .DS_Store

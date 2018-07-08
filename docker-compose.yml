@@ -2,10 +2,10 @@ version: '3.5'
 
 services:
 
-  client:
-        container_name: incode
+  client-app:
+        container_name: client-app
         build:
-          context: ./incode
+          context: ./client
           dockerfile: Dockerfile
         volumes:
           - '/usr/src/app/'
@@ -15,10 +15,10 @@ services:
         environment:
           - NODE_ENV=development
 
-  server:
-      container_name: incode-api
+  server-app:
+      container_name: server-app
       build:
-        context: ./incode-api
+        context: ./server
         dockerfile: Dockerfile
       volumes:
         - '/usr/src/app/'

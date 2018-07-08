@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>NoItems render the component 1`] = `
+<div
+  class="NoItems-root-1"
+>
+  <p>
+    No items
+  </p>
+  <div>
+    Child
+  </div>
+</div>
+`;
