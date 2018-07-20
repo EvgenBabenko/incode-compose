@@ -1,11 +1,11 @@
-# Client
+# Incode-App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Current technologies stack:
-* React + Redux
+* React
+* Redux
 * Material-ui
-* Jest + Enzyme
 
 ## Instruction
 

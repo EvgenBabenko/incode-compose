@@ -6,10 +6,10 @@ sudo docker-compose up -d --build
 
 sudo docker-compose up
 
-## `Admin`
-email: admin <br>
+## `Admin - don't delete admin account :)`
+email: admin@gmail.com <br>
 password: admin
 
-## `User`
-email: 1 <br>
-password: 1
+## `Guest`
+email: guest@gmail.com <br>
+password: guest
